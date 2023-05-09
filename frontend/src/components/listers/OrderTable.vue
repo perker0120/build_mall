@@ -94,7 +94,7 @@
                 'productName': '',
                 'productId': 0,
                 'userId': 0,
-                'price': {},
+                'price': 0,
                 'amount': 0,
                 'address': '',
             }

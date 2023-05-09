@@ -17,7 +17,9 @@
             <div>
                 <Number label="UserId" v-model="item.userId" :editMode="editMode" @change="change" />
             </div>
-            <Money offline label="Price" v-model="item.price" :editMode="false" @change="change" />
+            <div>
+                <Number label="Price" v-model="item.price" :editMode="editMode" @change="change" />
+            </div>
             <div>
                 <Number label="Amount" v-model="item.amount" :editMode="editMode" @change="change" />
             </div>

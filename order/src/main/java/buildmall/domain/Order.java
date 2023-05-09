@@ -23,8 +23,7 @@ public class Order {
 
     private Long userId;
 
-    @Embedded
-    private Money price;
+    private Integer price;
 
     private Integer amount;
 
