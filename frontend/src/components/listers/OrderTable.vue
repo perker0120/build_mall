@@ -70,9 +70,8 @@
                     { text: "productName", value: "productName" },
                     { text: "productId", value: "productId" },
                     { text: "userId", value: "userId" },
-                    { text: "price", value: "price" },
                     { text: "amount", value: "amount" },
-                    { text: "address", value: "address" },
+                    { text: "status", value: "status" },
                 ],
             order : [],
             newValue: {},
@@ -94,9 +93,8 @@
                 'productName': '',
                 'productId': 0,
                 'userId': 0,
-                'price': 0,
                 'amount': 0,
-                'address': '',
+                'status': '',
             }
         },
         methods: {

@@ -27,13 +27,10 @@
                                 UserId :  {{item.userId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Price :  {{item.price }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
                                 Amount :  {{item.amount }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Address :  {{item.address }}
+                                Status :  {{item.status }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 
@@ -86,8 +83,6 @@
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
                     obj['orderId'] = arr[4]; 
-                    
-                    
                     
                     
                     

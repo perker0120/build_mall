@@ -23,11 +23,9 @@ public class Order {
 
     private Long userId;
 
-    private Integer price;
-
     private Integer amount;
 
-    private String address;
+    private String status;
 
     @PostPersist
     public void onPostPersist() {
